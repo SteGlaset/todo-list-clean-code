@@ -159,8 +159,7 @@ body {
 }
 
 /* Edit Task */
-#incomplete-tasks .tasks-input[type=text],
-#completed-tasks .tasks-input[type=text] {
+.tasks__item .tasks-input[type=text] {
   display: none;
 }
 
