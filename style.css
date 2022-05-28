@@ -37,7 +37,7 @@ body {
 .add-task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-task-wrapper {
@@ -136,7 +136,7 @@ body {
 }
 
 .tasks__item>.tasks-input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 .delete-icon {
@@ -151,17 +151,17 @@ body {
 
 /* Completed */
 #completed-tasks .tasks-label {
-  text-decoration: line-through color: #888;
+  text-decoration: #888;
 }
 
 /* Edit Task */
-.tasks-input[type=text] {
-  display: none
+#incomplete-tasks .tasks-input[type=text], #completed-tasks .tasks-input[type=text] {
+  display: none;
 }
 
 .edit-mode .tasks-input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .tasks-label {
